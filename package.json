@@ -2,6 +2,10 @@
   "name": "opencode-plugin-advisor",
   "version": "0.1.0",
   "description": "opencode plugin that lets the agent consult a second, user-chosen advisor model before big or uncertain changes.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faridyusof727/opencode-plugin-advisor.git"
+  },
   "type": "module",
   "main": "index.ts",
   "types": "index.ts",
