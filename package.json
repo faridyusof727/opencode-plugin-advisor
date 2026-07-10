@@ -1,5 +1,5 @@
 {
-  "name": "opencode-advisor",
+  "name": "opencode-plugin-advisor",
   "version": "0.1.0",
   "description": "opencode plugin that lets the agent consult a second, user-chosen advisor model before big or uncertain changes.",
   "type": "module",

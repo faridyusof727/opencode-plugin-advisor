@@ -1,4 +1,4 @@
-# opencode-advisor
+# opencode-plugin-advisor
 
 An [opencode](https://opencode.ai) plugin that gives the agent a second opinion.
 
@@ -26,7 +26,7 @@ or a project's `opencode.json`):
 
 ```json
 {
-  "plugin": ["opencode-advisor"]
+  "plugin": ["opencode-plugin-advisor"]
 }
 ```
 
