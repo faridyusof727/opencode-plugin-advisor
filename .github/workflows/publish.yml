@@ -16,7 +16,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: "22"
+          node-version: "24" # bundles npm >=11.5.1, required for trusted publishing
           registry-url: "https://registry.npmjs.org"
 
       - name: Verify tag matches package.json version
@@ -28,6 +28,5 @@ jobs:
             exit 1
           fi
 
-      - run: npm install -g npm@latest # trusted publishing needs npm CLI >=11.5.1
       - run: npm ci
       - run: npm publish
