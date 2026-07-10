@@ -1,6 +1,6 @@
 {
   "name": "opencode-plugin-advisor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "opencode plugin that lets the agent consult a second, user-chosen advisor model before big or uncertain changes.",
   "repository": {
     "type": "git",
@@ -13,7 +13,11 @@
     "index.ts",
     "advisor.example.json"
   ],
-  "keywords": ["opencode", "opencode-plugin", "advisor"],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "advisor"
+  ],
   "license": "MIT",
   "dependencies": {
     "@opencode-ai/plugin": "^1.1.49"
